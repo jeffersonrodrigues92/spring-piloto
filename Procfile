@@ -1,1 +1,1 @@
-web: java -jar spring-application.jar -Xms256m
+web: java -jar target/spring-application.jar -Xms256m
