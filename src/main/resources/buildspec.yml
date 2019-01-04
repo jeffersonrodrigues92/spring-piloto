@@ -22,4 +22,4 @@ phases:
       - echo $CODEBUILD_SRC_DIR
 artifacts:
   files:
-    - target/spring-application.jar
+    - $CODEBUILD_SRC_DIR/target/spring-application.jar
