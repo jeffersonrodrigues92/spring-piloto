@@ -19,6 +19,6 @@ phases:
       - echo Generating .jar
       - mvn package
       - echo Build completed
-#artifacts:
-#  files:
-#    - target/spring-application.jar
+artifacts:
+  files:
+    - target/spring-application.jar
