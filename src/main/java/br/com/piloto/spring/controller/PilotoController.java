@@ -16,5 +16,4 @@ public class PilotoController {
 		String retorno = "It's working";
 		return new ResponseEntity<String>(retorno, HttpStatus.OK);
 	}
-	
 }
