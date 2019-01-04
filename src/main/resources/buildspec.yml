@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Cleaning project...
+      - mvn clean
+  pre_build:
+    commands:
+      - echo Installing Maven dependencies...
+      - mvn install
+  build:
+    commands:
+      - echo Build started
+      - echo Compiling with mvn compile 
+      - mvn compile
+  post_build:
+    commands:
+      - echo Build completed
