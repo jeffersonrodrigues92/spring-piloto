@@ -16,8 +16,10 @@ phases:
       - mvn compile
   post_build:
     commands:
+      - echo Generating .jar
+      - mvn package
       - echo Build completed
 artifacts:
   files:
-    - target/spring-0.0.1-SNAPSHOT.jar
-  name: springpiloto-$(date +%Y-%m-%d)
+    - target/spring-application.jar
+    - appspec.yml
