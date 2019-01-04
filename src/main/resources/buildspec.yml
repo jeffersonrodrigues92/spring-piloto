@@ -21,4 +21,5 @@ phases:
       - echo Build completed
 artifacts:
   files:
+    - echo $CODEBUILD_SRC_DIR
     - target/spring-application.jar
