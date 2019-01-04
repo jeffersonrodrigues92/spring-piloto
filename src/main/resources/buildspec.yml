@@ -20,5 +20,3 @@ phases:
   artifacts:
     files:
       - target/spring-0.0.1-SNAPSHOT.jar
-    name: springpiloto-$(date +%Y-%m-%d)
-    
