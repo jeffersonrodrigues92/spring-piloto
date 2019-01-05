@@ -19,7 +19,6 @@ phases:
       - echo Generating .jar
       - mvn package
       - echo Build completed
-      - echo $CODEBUILD_SRC_DIR
 artifacts:
   files:
-    - '**/*'
+    - target/spring-application.jar
