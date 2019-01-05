@@ -13,7 +13,7 @@ public class PilotoController {
 	
 	@GetMapping
 	public ResponseEntity<String> get(){
-		String retorno = "It's working with CI/CD";
+		String retorno = "It's working with CI/CD 100%";
 		return new ResponseEntity<String>(retorno, HttpStatus.OK);
 	}
 }

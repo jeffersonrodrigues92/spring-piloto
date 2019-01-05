@@ -1,0 +1,1 @@
+web: java -jar target/spring-application.jar -Xms256m
